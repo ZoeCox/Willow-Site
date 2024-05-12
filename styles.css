@@ -1,0 +1,17 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4.5em;
+    font-family: verdana, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    overflow: auto;
+    background-color: antiquewhite;
+}
+
+img {
+  width: 18em;
+  border: solid 3px black;
+}
