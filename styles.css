@@ -3,15 +3,30 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 4.5em;
+    margin-left: 1em;
+    margin-right: 1em;
     font-family: verdana, sans-serif;
     font-size: 1.5em;
     text-align: center;
-    overflow: auto;
     background-color: antiquewhite;
 }
 
+h1 {
+    border: solid black 0.1em;
+    box-shadow: 0.1em 0.1em 0.1em grey;
+    padding: 0.25em;
+}
+
+.main-section {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 img {
-  width: 18em;
+  width: 12em;
   border: solid 3px black;
+}
+
+@media (max-width: 700px) {
+   main{ font-size: 1em;}
 }
